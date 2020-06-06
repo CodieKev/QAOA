@@ -1,12 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Jun  5 17:10:40 2020
 
-@author: codie
-"""
-
-from qiskit import QuantumRegister, ClassicalRegister
-from qiskit import QuantumCircuit, execute, Aer
 import numpy as np
 x = np.arange(0, np.pi, 0.01).tolist()
 #print(x)
